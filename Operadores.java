@@ -1,15 +1,13 @@
-public class Operadores {
-    /**
-     * @param barela
-     */
-    public static void main(String[] barela){
+import java.util.Scanner;
 
-        int idade;
-        idade = 16;
-        idade++;
-        idade++;
-        System.out.println("Eu tenho "+ idade +");
-        idade+=10;
+public class Operadores {
+    public static void main(String[] barela){
+        Scanner entrada = new Scanner(System.in);
+        int idade=0;
+        System.out.println("Digite sua idade");
+        idade=entrada.nextInt();
+
         System.out.println(idade);
+
     }
 }
