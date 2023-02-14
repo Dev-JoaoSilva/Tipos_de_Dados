@@ -16,7 +16,7 @@ public class Operadores {
 
         System.out.println("Digite outro número");
         numero2=entrada.nextInt();
-        soma=numero1+numero2;
+        Soma=numero1+numero2;
         System.out.println("A soma dos dois números é" +soma);
 
     }
