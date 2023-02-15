@@ -1,10 +1,12 @@
 public class EstruturaDeRepeticao {
+    /**
+     * @param args
+     */
     public static void main(String args[]) {
-
-        for(int i=150; i<=499;i++){
-            int soma = i + 1;
-            System.out.println(soma);
+        for (int i= 150; i<=300; i++){
+            System.out.println(i);
         }
+            
 
     }
 }
